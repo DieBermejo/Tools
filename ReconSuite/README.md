@@ -1,4 +1,4 @@
-# ReconSuite v3.0
+# ReconSuite
 
 Herramienta de reconocimiento (OSINT) sobre un dominio, guiada por metodología PTES: va de lo menos intrusivo (enumeración **pasiva**, sin tocar el objetivo) a lo más intrusivo (enumeración **activa**: DNS y fuzzing web). Al terminar genera un **informe HTML** con el veredicto, las acciones prioritarias, un semáforo de hallazgos y el detalle plegable de cada herramienta, pensado para que lo entienda alguien no técnico.
 
@@ -25,7 +25,7 @@ Herramienta de reconocimiento (OSINT) sobre un dominio, guiada por metodología 
 ## Cómo usarla
 
 ```bash
-python3 recon_suite_v3.py
+python3 recon_suite_v3.py -d example.com
 ```
 
 El programa pregunta el dominio y te deja elegir las herramientas. También puedes pasar los parámetros directamente:
