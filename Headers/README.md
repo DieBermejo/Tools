@@ -22,7 +22,7 @@ Auditor de **cabeceras de seguridad HTTP** y **sensor de User-Agent**. Hace una 
 ## Cómo usarla
 
 ```bash
-python3 headers_ua_v3.py
+python3 headers_ua_v3.py -u example.com
 ```
 
 El programa pregunta la web a auditar y te deja elegir apartados y el modo del servidor (demostración automática con 5 visitas de prueba, o escucha manual). También por parámetros:
