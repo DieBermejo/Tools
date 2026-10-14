@@ -1,4 +1,4 @@
-# Headers-UA v3.0
+# Headers-UA
 
 Auditor de **cabeceras de seguridad HTTP** y **sensor de User-Agent**. Hace una petición a cualquier web y revisa qué escudos de seguridad envía (y si filtra datos de su servidor); además levanta un pequeño servidor HTTP propio que captura y clasifica el `User-Agent` de cada visita (visitante normal, robot, escáner de hacking o ataque). Al terminar genera un **informe HTML** con el mismo diseño que los de reconocimiento: veredicto con nota A–F, acciones prioritarias, semáforo de hallazgos y detalle plegable.
 
