@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="type" for="node" attr.name="type" attr.type="string"/>
+  <key id="value" for="node" attr.name="value" attr.type="string"/>
+  <key id="sources" for="node" attr.name="sources" attr.type="string"/>
+  <key id="rel" for="edge" attr.name="rel" attr.type="string"/>
+  <graph edgedefault="directed">
+    <node id="n_f4faaef66813"><data key="label">Juan Pérez Ejemplo</data><data key="type">person</data><data key="value">Juan Pérez Ejemplo</data><data key="sources">input</data></node>
+    <node id="n_9daaea27811b"><data key="label">juan.perez@ejemplo-demo.es</data><data key="type">email</data><data key="value">juan.perez@ejemplo-demo.es</data><data key="sources">input, domain</data></node>
+    <node id="n_42c1e4d296b4"><data key="label">ejemplo-demo.es</data><data key="type">domain</data><data key="value">ejemplo-demo.es</data><data key="sources">domain</data></node>
+    <node id="n_282f1780deff"><data key="label">203.0.113.10</data><data key="type">ip</data><data key="value">203.0.113.10</data><data key="sources">domain</data></node>
+    <node id="n_d55f90d54e47"><data key="label">203.0.113.11</data><data key="type">ip</data><data key="value">203.0.113.11</data><data key="sources">domain</data></node>
+    <node id="n_4ea8db4581f7"><data key="label">mx1.ejemplo-demo.es</data><data key="type">host</data><data key="value">mx1.ejemplo-demo.es</data><data key="sources">domain</data></node>
+    <node id="n_2fd7b11ad0c5"><data key="label">mx2.ejemplo-demo.es</data><data key="type">host</data><data key="value">mx2.ejemplo-demo.es</data><data key="sources">domain</data></node>
+    <node id="n_d01cec8f7dc3"><data key="label">ns1.example-dns.net</data><data key="type">host</data><data key="value">ns1.example-dns.net</data><data key="sources">domain</data></node>
+    <node id="n_6f9b0abb3ae1"><data key="label">Example Registrar S.L.</data><data key="type">organization</data><data key="value">Example Registrar S.L.</data><data key="sources">domain</data></node>
+    <node id="n_54dac0cab8b1"><data key="label">juanperez</data><data key="type">username</data><data key="value">juanperez</data><data key="sources">usernames</data></node>
+    <node id="n_b4a9ced8e09f"><data key="label">GitHub: juanperez</data><data key="type">social_profile</data><data key="value">https://github.com/juanperez</data><data key="sources">usernames</data></node>
+    <node id="n_2c97ba1cd13e"><data key="label">Reddit: juanperez</data><data key="type">social_profile</data><data key="value">https://www.reddit.com/user/juanperez</data><data key="sources">usernames</data></node>
+    <node id="n_fa4c1d83b340"><data key="label">Twitch: juanperez</data><data key="type">social_profile</data><data key="value">https://www.twitch.tv/juanperez</data><data key="sources">usernames</data></node>
+    <node id="n_67c24388f9bd"><data key="label">Keybase: juanperez</data><data key="type">social_profile</data><data key="value">https://keybase.io/juanperez</data><data key="sources">usernames</data></node>
+    <node id="n_2e5b2474ed58"><data key="label">Brecha: ExampleBreach</data><data key="type">breach</data><data key="value">ExampleBreach2019</data><data key="sources">breaches</data></node>
+    <node id="n_b98d90135a38"><data key="label">Brecha: DemoLeak</data><data key="type">breach</data><data key="value">DemoLeak2021</data><data key="sources">breaches</data></node>
+    <node id="n_223d229f2b8b"><data key="label">+34 600 123 456</data><data key="type">phone</data><data key="value">+34 600 123 456</data><data key="sources">input</data></node>
+    <edge id="e0" source="n_f4faaef66813" target="n_9daaea27811b"><data key="rel">investigacion</data></edge>
+    <edge id="e1" source="n_9daaea27811b" target="n_42c1e4d296b4"><data key="rel">dominio_de_email</data></edge>
+    <edge id="e2" source="n_42c1e4d296b4" target="n_282f1780deff"><data key="rel">resuelve_a</data></edge>
+    <edge id="e3" source="n_42c1e4d296b4" target="n_d55f90d54e47"><data key="rel">resuelve_a</data></edge>
+    <edge id="e4" source="n_42c1e4d296b4" target="n_4ea8db4581f7"><data key="rel">mx</data></edge>
+    <edge id="e5" source="n_42c1e4d296b4" target="n_2fd7b11ad0c5"><data key="rel">mx</data></edge>
+    <edge id="e6" source="n_42c1e4d296b4" target="n_d01cec8f7dc3"><data key="rel">ns</data></edge>
+    <edge id="e7" source="n_42c1e4d296b4" target="n_6f9b0abb3ae1"><data key="rel">registrado_por</data></edge>
+    <edge id="e8" source="n_9daaea27811b" target="n_54dac0cab8b1"><data key="rel">usa_alias</data></edge>
+    <edge id="e9" source="n_9daaea27811b" target="n_54dac0cab8b1"><data key="rel">misma_persona?</data></edge>
+    <edge id="e10" source="n_54dac0cab8b1" target="n_b4a9ced8e09f"><data key="rel">perfil_en</data></edge>
+    <edge id="e11" source="n_54dac0cab8b1" target="n_2c97ba1cd13e"><data key="rel">perfil_en</data></edge>
+    <edge id="e12" source="n_54dac0cab8b1" target="n_fa4c1d83b340"><data key="rel">perfil_en</data></edge>
+    <edge id="e13" source="n_54dac0cab8b1" target="n_67c24388f9bd"><data key="rel">perfil_en</data></edge>
+    <edge id="e14" source="n_9daaea27811b" target="n_2e5b2474ed58"><data key="rel">expuesto_en</data></edge>
+    <edge id="e15" source="n_9daaea27811b" target="n_b98d90135a38"><data key="rel">expuesto_en</data></edge>
+    <edge id="e16" source="n_f4faaef66813" target="n_223d229f2b8b"><data key="rel">investigacion</data></edge>
+  </graph>
+</graphml>
